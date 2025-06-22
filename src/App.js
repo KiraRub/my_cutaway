@@ -52,6 +52,12 @@ const TopContent = styled.div`
     width: 100%;
     justify-content: right;
     padding: 20px 0;
+    @media (max-width: 768px) {
+        justify-content: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
 `;
 const About = styled.div`
     display: flex;
@@ -126,6 +132,7 @@ const Photo = styled.img`
     object-fit: cover; /* изображение заполняет рамку без искажения */
     border-radius: 5px; /* Скругление углов изображения */
     display: block; /* Убираем лишние отступы */
+    
 `;
 const Title = styled.h6`
     font-size: 2rem;
