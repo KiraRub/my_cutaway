@@ -249,7 +249,7 @@ function App() {
                     <h1>Имя: Кирилл</h1>
                     </About>
                     <PhotoFrame>
-                        <Photo src={'myPhoto.jpeg'} alt={''}/>
+                        <Photo src={'myPhoto.jpg'} alt={''}/>
                     </PhotoFrame>
                 </TopContent>
                 <MiddleContent>
@@ -259,11 +259,22 @@ function App() {
                     </Text>
                     <Description>Опыт:</Description>
                     <Text>
-                        За 2 года работы в области backend-разработки были реализованы интеграции с внешними платежными системами, включая методы B2B и bank transfer. Доработана админская часть multiaccounts для обнаружения недобросовестных пользователей с множественными аккаунтами. Разработан сервис cron-scheduler для проверки и свободного задания времени выполнения регламентных задач без необходимости внесения доработок. Оптимизированы пользовательские запросы и настроена система фильтров.
+                        За 2 года работы в области backend-разработки были реализованы интеграции с внешними платежными
+                        системами, включая методы B2B и bank transfer. Доработана админская часть multiaccounts для
+                        обнаружения недобросовестных пользователей с множественными аккаунтами. Разработан сервис
+                        cron-scheduler для проверки и свободного задания времени выполнения регламентных задач без
+                        необходимости внесения доработок. Оптимизированы пользовательские запросы и настроена система
+                        фильтров. Чем был полезен:
+                        <ul>
+                            <li>Доработка админской части multiaccounts с применением fingerprint</li>
+                            <li>Интеграция платежных систем методом Bank transfer и b2b </li>
+                            <li>Сервис cron-scheduler для ручного изменения регламентных заданий</li>
+                            <li>Оптимизировал запросы с помощью индексов по фильтрам, чем ускорил работу проекта</li>
+                        </ul>
                     </Text>
                     <Description>Инструменты:</Description>
                     <Text>
-                        TypeScript, JavaScript, MySQL, PostgreSQL, Redis, RabbitMQ, Nginx, Docker
+                        TypeScript, JavaScript, MySQL, PostgreSQL, Redis, RabbitMQ, Nginx, Docker, Node.js
                     </Text>
                 </MiddleContent>
                 <BottomContent>
